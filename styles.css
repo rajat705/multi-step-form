@@ -1,0 +1,78 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(226, 197, 202);
+    color: hsl(0, 97%, 14%);
+    padding: 130px;
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(237, 159, 172);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 45px;
+}
+
+.step-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    display: none;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.step.active {
+    display: block;
+}
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    background-color: #3498db;
+    color: #e6dada;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #2575b7;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 80%;
+    padding: 6px; 
+    font-size: 16px; 
+    border: 3px solid #9b7b7b;
+    border-radius: 35px;
+}
+
+select {
+    padding: 20px;
+}
+
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+    border: 1px solid #3498db;
+}
